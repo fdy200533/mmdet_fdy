@@ -40,7 +40,7 @@ def main():
             break
 
         model.show_result(
-            img, result, score_thr=args.score_thr, wait_time=1, show=True)
+            img, result, score_thr=args.score_thr, wait_time=0.01, show=True)
 
 
 if __name__ == '__main__':
